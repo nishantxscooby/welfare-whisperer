@@ -8,13 +8,17 @@ const Header: React.FC = () => {
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2 group">
           <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center overflow-hidden">
-            <img src="/images/logo.jpg" alt="Logo" className="w-full h-full object-cover" />
+            <img
+              src="https://i.imgur.com/7PeWo0M.jpeg"
+              alt="Logo"
+              className="w-full h-full object-cover"
+            />
           </div>
           <h1 className="text-xl font-bold transition-all duration-300 group-hover:tracking-wider">
             Welfare Whisperer
           </h1>
         </Link>
-        
+
         <nav className="hidden md:flex space-x-8">
           <Link to="/" className="text-sm font-medium text-white hover:text-white/80 transition-colors">
             Home
